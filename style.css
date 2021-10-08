@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(80, 110, 158);
+}
+
+th {
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+img {
+    float: right;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+ol>ol {
+    list-style: lower-roman;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+p {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f5ecd2;
+}
+
+p.class1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #039;
+}
+
+p.class2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: rgb(2, 69, 204);
+}
+
+p.class3 {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    color: #323232;
+    font-size: 18px;
+}
